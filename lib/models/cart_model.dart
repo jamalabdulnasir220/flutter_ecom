@@ -43,7 +43,7 @@ class CartModel {
     "time": this.time,
     "img": this.img,
     "isExist": this.isExist,
-
+      "product": this.product!.toJson(),
   };
   }
 
