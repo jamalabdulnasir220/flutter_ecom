@@ -53,7 +53,6 @@ class PopularProductController extends GetxController {
   }
 
   int checkQuantity(int quantity){
-
     if((_inCartItems+quantity)<0){
       Get.snackbar(
           "item count", "you can't reduce more !",
